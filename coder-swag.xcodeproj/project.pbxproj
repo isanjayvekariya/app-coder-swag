@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C0292A31F377D2400E71100 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0292A21F377D2400E71100 /* ProductCell.swift */; };
+		3C0292A51F37897C00E71100 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0292A41F37897C00E71100 /* Product.swift */; };
 		3CC5808E1F375DAF0062C4F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5808D1F375DAF0062C4F4 /* AppDelegate.swift */; };
 		3CC580901F375DAF0062C4F4 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC5808F1F375DAF0062C4F4 /* CategoriesVC.swift */; };
 		3CC580931F375DAF0062C4F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CC580911F375DAF0062C4F4 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		3C0292A21F377D2400E71100 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		3C0292A41F37897C00E71100 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		3CC5808A1F375DAF0062C4F4 /* coder-swag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "coder-swag.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3CC5808D1F375DAF0062C4F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3CC5808F1F375DAF0062C4F4 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				3CEA30551F376A3E005BA46A /* Category.swift */,
+				3C0292A41F37897C00E71100 /* Product.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 				3C0292A31F377D2400E71100 /* ProductCell.swift in Sources */,
 				3CEA30561F376A3E005BA46A /* Category.swift in Sources */,
 				3CEA30591F376C12005BA46A /* DataService.swift in Sources */,
+				3C0292A51F37897C00E71100 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
